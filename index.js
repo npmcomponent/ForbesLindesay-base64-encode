@@ -1,4 +1,4 @@
-var utf8Encode = require('utf8-encode');
+var utf8Encode = require('ForbesLindesay-utf8-encode');
 var keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 
 module.exports = encode;

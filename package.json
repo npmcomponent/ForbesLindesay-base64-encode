@@ -1,25 +1,9 @@
 {
-  "name": "base64-encode",
-  "version": "2.0.1",
+  "name": "forbeslindesay-base64-encode",
   "description": "Encode base-64 strings with JavaScript",
-  "main": "./server.js",
-  "browser": "./index.js",
-  "scripts": {
-    "test": "component-install && component-build -s b && mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ForbesLindesay/base64-encode.git"
-  },
-  "author": "ForbesLindesay",
-  "license": "MIT",
+  "version": "2.0.1",
+  "keywords": [],
   "dependencies": {
-    "utf8-encode": "ForbesLindesay/utf8-encode#1.0.0"
-  },
-  "devDependencies": {
-    "component": "*",
-    "mocha": "*",
-    "better-assert": "*"
-  },
-  "files": ["index.js", "server.js"]
+    "ForbesLindesay-utf8-encode": "git://github.com/npmcomponent/ForbesLindesay-utf8-encode.git"
+  }
 }
